@@ -30,6 +30,11 @@ ingress:
   #   - "wishlist.example.com"
 
 
+service:
+  labels: {}
+  annotations: {}
+
+
 deployment:
   labels: {}
   annotations: {}
