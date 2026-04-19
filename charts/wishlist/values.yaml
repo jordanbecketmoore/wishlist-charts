@@ -35,6 +35,14 @@ deployment:
   annotations: {}
   podAnnotations: {}
   podLabels: {}
+  extraVolumes: []
+  # - name: my-secret
+  #   secret:
+  #     secretName: my-secret
+  extraVolumeMounts: []
+  # - name: my-secret
+  #   mountPath: /etc/secrets/my-secret
+  #   readOnly: true
 
 
 # fullnameOverride: ""
