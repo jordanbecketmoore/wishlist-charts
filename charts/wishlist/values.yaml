@@ -12,15 +12,15 @@ wishlist:
 # you can disable persistence for testing, and no PVCs will get created, but all data will be lost on pod deletion/restart
 persistence:
   data:
-    enabled: true
+    enabled: false
     size: 2Gi
   uploads:
-    enabled: true
+    enabled: false
     size: 10Gi
 
 
 ingress:
-  enabled: true
+  enabled: false
   # labels: {}
   # annotations: {}
   host: "wishlist.example.com"
